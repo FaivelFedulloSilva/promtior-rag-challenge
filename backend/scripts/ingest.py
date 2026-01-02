@@ -407,7 +407,6 @@ def run_ingest() -> IngestStats:
     )
 
 
-# Optional: allow manual run (still no args)
 if __name__ == "__main__":
     load_dotenv()
     stats = run_ingest()
