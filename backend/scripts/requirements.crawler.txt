@@ -1,0 +1,13 @@
+# Crawler Dependencies
+# For running crawl.py to scrape the Promtior website
+
+# Environment variables
+python-dotenv==1.0.1
+
+# HTTP and utilities
+requests>=2.32.0
+tqdm==4.67.1
+
+# Browser-based web crawling
+# Note: After installation, run: crawl4ai-setup
+crawl4ai>=0.2.0

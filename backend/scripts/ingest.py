@@ -32,7 +32,7 @@ from langchain_chroma import Chroma
 # CONFIG (edit here, no CLI args)
 # -----------------------------
 JSONL_PATH = Path("./data/promtior_docs.jsonl")      # <-- tu jsonl
-PERSIST_DIR = Path("./chroma_db")              # <-- carpeta chroma persistente
+PERSIST_DIR = Path("../chroma_db")              # <-- carpeta chroma persistente
 COLLECTION_NAME = "promtior"
 
 # Rebuild behavior

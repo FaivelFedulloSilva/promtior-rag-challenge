@@ -1,0 +1,21 @@
+# Ingestion Dependencies
+# For running ingest.py to process crawled data and build vector database
+
+# Environment variables
+python-dotenv==1.0.1
+
+# LangChain ecosystem (0.3.x stable)
+langchain-core>=0.3.0,<0.4.0
+langchain-text-splitters==0.3.11
+langchain-openai==0.3.11
+langchain-community==0.3.31
+
+# Vector store
+langchain-chroma==0.2.6
+chromadb>=1.0.20
+
+# Optional: PDF support (if INGEST_PDF=True)
+pypdf>=5.1.0
+
+# Optional: SentenceTransformers embeddings (if EMBEDDINGS_PROVIDER="st")
+# sentence-transformers>=2.2.0
